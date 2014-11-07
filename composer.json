@@ -5,6 +5,15 @@
         "twig/twig": "1.16.*@dev"
     },
     "autoload": {
-        "psr-0": {"Iboved": "src/"}
+        "psr-0": {"patrick": "src/"}
+    },
+     "require-dev": {
+        "phpunit/phpunit-skeleton-generator": "*"
+    },
+    "autoload": {
+        "classmap": [
+        "app/libraries",
+        "app/models"
+        ]
     }
 }
